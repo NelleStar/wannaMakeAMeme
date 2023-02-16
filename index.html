@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>MAKE A MEME</h1>
+        <h2>Simply plug in a URL for a picture then type what you want it to say. Hit submit and you are ready for action!</h2>
+    </div>
+
+    <form class="memestuff">
+        <div>
+            <label for="">
+                Picture URL here:
+                <input type="text" placeholder="Picture URL" name="picture">
+            </label>            
+        </div> 
+        <div>
+            <label for="">
+                Upper text here: 
+                <input type="text" placeholder="Text" name="text1">
+            </label>
+        </div>       
+        <div>
+            <label for="">
+                Upper text here: 
+                <input type="text" placeholder="Text" name="text2">
+            </label>
+        </div>  
+        <div>
+            <label for="">
+                Pick Text Color: 
+                <input type="color"  name="color">
+            </label>
+        </div>       
+        <div>
+            <label for="">
+                Pick font size 
+                <input type="range" name="fontsize" min="10" max="50">
+            </label>
+        </div>  
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </form>
+    
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
