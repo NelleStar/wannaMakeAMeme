@@ -1,73 +1,72 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .intro {
-    margin: 20px auto;
-    width: 420px;
-    font-family: sans-serif;
+  margin: 20px auto;
+  width: 420px;
+  font-family: sans-serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    text-align: center;
+  text-align: center;
 }
 
-.memestuff
-{
-    margin: 20px auto;
-    width: 420px;
-    font-family: sans-serif;
+.memestuff {
+  margin: 20px auto;
+  width: 420px;
+  font-family: sans-serif;
 }
 
 .memestuff label {
-    display: block;
-    font-weight: bold;
-    margin: 10px;
+  display: block;
+  font-weight: bold;
+  margin: 10px;
 }
 
-.memestuff input{
-    width: 100%;
+.memestuff input {
+  width: 100%;
 }
 
 #result {
-    font-family: sans-serif;
-    position: relative;
-    display: flex;
+  font-family: sans-serif;
+  position: relative;
+  display: flex;
 }
-
-
 
 p {
-    width: 400px;
+  width: 400px;
 }
 
-.finalMemePic { 
-    display: flex;     
-    width: 400px;
-    height: 400px;
+.finalMemePic {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.finalMemeTop { 
-    text-align: center;
-    position: absolute;
-    top: 0;
+.finalMemeTop {
+  text-align: center;
 }
-
 
 .finalMemeBottom {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+  text-align: center;
 }
 
+.container {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
